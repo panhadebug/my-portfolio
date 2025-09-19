@@ -14,8 +14,8 @@ export const AboutSection = () => {
               Passionate Web Developer & Designer
             </h3>
             <p className="text-muted-foreground">
-              I’m a passionate Web Developer and Designer who thrives on
-              turning ideas into interactive digital experiences. For me, web
+              I’m a passionate Web Developer and Designer who thrives on turning
+              ideas into interactive digital experiences. For me, web
               development is more than writing code — it’s about creating
               functional, engaging, and visually captivating platforms that
               truly connect with people.
@@ -49,10 +49,10 @@ export const AboutSection = () => {
             </div>
           </div>
           <div className="grid grid-cols-1 gap-4">
-            <div className="gradient-border p-6 card-hover ">
+            <div className="bg-blue-500 rounded-2xl p-6 card-hover ">
               <div className="flex items-start gab-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Code className="h-6 w-6 text-primary" />
+                <div className="p-3 rounded-full bg-blue-400">
+                  <Code className="h-6 w-6 text-muted-foreground" />
                 </div>
                 <div className="text-left ml-3">
                   <h4 className="font-semibold text-lg">Website Development</h4>
@@ -65,10 +65,10 @@ export const AboutSection = () => {
                 </div>
               </div>
             </div>
-            <div className="gradient-border p-6 card-hover ">
+            <div className="bg-blue-500 rounded-2xl p-6 card-hover ">
               <div className="flex items-start gab-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <User className="h-6 w-6 text-primary" />
+                <div className="p-3 rounded-full bg-blue-400">
+                  <User className="h-6 w-6 text-muted-foreground" />
                 </div>
                 <div className="text-left ml-3">
                   <h4 className="font-semibold text-lg">UX/UI Design</h4>
@@ -81,10 +81,10 @@ export const AboutSection = () => {
                 </div>
               </div>
             </div>
-            <div className="gradient-border p-6 card-hover ">
+            <div className="bg-blue-500 rounded-2xl p-6 card-hover ">
               <div className="flex items-start gab-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Briefcase className="h-6 w-6 text-primary" />
+                <div className="p-3 rounded-full bg-blue-400">
+                  <Briefcase className="h-6 w-6 text-muted-foreground" />
                 </div>
                 <div className="text-left ml-3">
                   <h4 className="font-semibold text-lg">Project Management</h4>

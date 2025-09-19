@@ -46,7 +46,7 @@ export const Footer = () => {
       {showScrollBtn && (
         <a
           href="#Hero"
-          className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 p-3 rounded-full bg-primary/10 hover:bg-primary/20 text-primary shadow-lg transition-colors duration-300"
+          className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 p-3 rounded-full bg-primary/40 hover:bg-primary/20 text-muted-foreground shadow-lg transition-colors duration-300"
           aria-label="Scroll to top"
         >
           <ArrowUp size={24} />
