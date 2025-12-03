@@ -1,5 +1,15 @@
-import { ArrowUp, Github, Instagram, Linkedin } from "lucide-react";
+import {
+  ArrowBigDown,
+  ArrowUp,
+  ArrowUpAZ,
+  ArrowUpCircle,
+  ArrowUpIcon,
+  Github,
+  Instagram,
+  Linkedin,
+} from "lucide-react";
 import { useEffect, useState } from "react";
+import { BsArrowUpCircle, BsArrowUpRightCircle } from "react-icons/bs";
 
 export const Footer = () => {
   const [showScrollBtn, setShowScrollBtn] = useState(false);
@@ -49,7 +59,7 @@ export const Footer = () => {
           className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 p-3 rounded-full bg-primary/40 hover:bg-primary/20 text-muted-foreground shadow-lg transition-colors duration-300"
           aria-label="Scroll to top"
         >
-          <ArrowUp size={24} />
+          <BsArrowUpCircle size={24} />
         </a>
       )}
     </>

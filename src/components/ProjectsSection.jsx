@@ -16,28 +16,27 @@ const projects = [
     description:
       "A beautiful material design webpage using React and Tailwind.",
     image: "/projects/project1.png",
-    tag: ["React", "Tailwind", "JavaScript"],
-    githubUrl: "https://github.com/",
+    tag: ["HTML", "CSS"],
+    githubUrl: "https://github.com/panhadebug",
     projectUrl: "https://example.com/project-one",
   },
   {
     id: 2,
     title: "SmartPhone Webpage",
     description:
-      "A beautiful material design webpage using React and Tailwind.",
+      "A beautiful smartphone design webpage using HTML CSS  JavaScript.",
     image: "./projects/project2.png",
-    tag: ["React", "Tailwind", "JavaScript"],
-    githubUrl: "https://github.com/",
+    tag: ["HTML", "CSS", "JavaScript"],
+    githubUrl: "https://github.com/panhadebug",
     projectUrl: "https://example.com/project-two",
   },
   {
     id: 3,
     title: "Food Webpage",
-    description:
-      "A beautiful material design webpage using React and Tailwind.",
+    description: "A beautiful Food design webpage using React and Tailwind.",
     image: "./projects/project3.png",
     tag: ["React", "Tailwind", "JavaScript"],
-    githubUrl: "https://github.com/",
+    githubUrl: "https://github.com/panhadebug",
     projectUrl: "https://example.com/project-three",
   },
 ];
@@ -99,7 +98,7 @@ export const ProjectsSection = () => {
                       <Github size={20} />
                     </a>
                     <a
-                      href={project.githubUrl}
+                      href={project.instagramUrl}
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
@@ -114,7 +113,7 @@ export const ProjectsSection = () => {
         <div className="text-center mt-10">
           <a
             className="cosmic-button w-fit flex items-center mx-auto gab-2"
-            href="https://github.com/"
+            href="https://github.com/panhadebug"
             target="_blank"
           >
             Check My Github <ArrowRight size={16} />

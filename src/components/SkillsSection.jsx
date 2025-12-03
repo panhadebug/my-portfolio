@@ -4,26 +4,29 @@ const skills = [
   // frontend skills
   { name: "HTML/CSS", level: 95, category: "frontend" },
   { name: "JavaScript", level: 90, category: "frontend" },
-  { name: "React", level: 85, category: "frontend" },
+  { name: "ReactJS", level: 85, category: "frontend" },
   { name: "TypeScript", level: 80, category: "frontend" },
   { name: "Tailwindcss", level: 75, category: "frontend" },
-  { name: "MongoDB", level: 70, category: "frontend" },
-  { name: "Next.js", level: 65, category: "frontend" },
+  // { name: "MongoDB", level: 70, category: "frontend" },
+  { name: "Flutter", level: 40, category: "frontend" },
   // backend skills
-  { name: "Node.js", level: 80, category: "backend" },
-  { name: "Express", level: 75, category: "backend" },
-  { name: "MongoDB", level: 70, category: "backend" },
+  { name: "Node.js", level: 60, category: "backend" },
+  // { name: "Express", level: 75, category: "backend" },
+  { name: "MySQL", level: 70, category: "backend" },
   { name: "PostgreSQL", level: 65, category: "backend" },
   //   Tools
   { name: "Git", level: 85, category: "tools" },
-  { name: "Docker", level: 70, category: "tools" },
+  // { name: "Docker", level: 70, category: "tools" },
   { name: "Figma", level: 60, category: "tools" },
   { name: "VSCode", level: 90, category: "tools" },
 ];
 const categories = ["all", "frontend", "backend", "tools"];
 export const SkillsSection = () => {
-  const[activeCategory, setActiveCategory] = useState("all");
-  const filteredSkills = activeCategory === "all" ? skills : skills.filter(skill => skill.category === activeCategory);
+  const [activeCategory, setActiveCategory] = useState("all");
+  const filteredSkills =
+    activeCategory === "all"
+      ? skills
+      : skills.filter((skill) => skill.category === activeCategory);
   return (
     <section id="Skill" className="py-24 px-24 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl ">

@@ -33,7 +33,7 @@ export const Navbar = () => {
           href="#Home"
         >
           <span className="relative z-10">
-            <span className="text-glow text-pink-400"> Welcome to my</span>{" "}
+            <span className="text-glow text-white"> Welcome to my</span>{" "}
             Portfolio Website
           </span>
         </a>
